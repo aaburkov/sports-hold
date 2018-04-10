@@ -5,149 +5,178 @@
 	<title>SportsHold</title>
 	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/trueno" type="text/css"/>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
 	<header>
-		<div class="container">
+		
 			<nav class="sub-nav">
-				<ul class="sub-nav__list">
-					<li class="sub-nav__item"><a href="#" class="sub-nav__link">Support</a></li>
-					<li class="sub-nav__item"><a href="#" class="sub-nav__link">Delivery</a></li>
-					<li class="sub-nav__item"><a href="#" class="sub-nav__link">Leagal</a></li>
-					<li class="sub-nav__item"><a href="#" class="sub-nav__link">About Us</a></li>
-				</ul>
-				<div class="sub-nav__cart cart">
-					<span class="cart__cash">$465.00</span>
-					<span class="cart__counter">4 Items</span>
+				<div class="container">
+					<div class="sub-nav__wrapper">
+						<ul class="sub-nav__list">
+							<li class="sub-nav__item"><a href="#" class="sub-nav__link">Support</a></li>
+							<li class="sub-nav__item"><a href="#" class="sub-nav__link">Delivery</a></li>
+							<li class="sub-nav__item"><a href="#" class="sub-nav__link">Leagal</a></li>
+							<li class="sub-nav__item"><a href="#" class="sub-nav__link">About Us</a></li>
+						</ul>
+						
+						<ul class="sub-nav__user-block user-block">
+							<div class="sub-nav__cart cart">
+								<span class="cart__cash">$465.00</span>
+								<span class="cart__counter">4 Items</span>
+							</div>
+							<li class="user-block__item"><a href="#" class="user-block__link">Login</a></li>
+							<li class="user-block__item"><a href="#" class="user-block__link">Register</a></li>
+						</ul>
+					</div>
 				</div>
-				<ul class="sub-nav__user-block user-block">
-					<li class="user-block__item"><a href="#" class="user-block__link">Login</a></li>
-					<li class="user-block__item"><a href="#" class="user-block__link">Register</a></li>
-				</ul>
 			</nav>
 			
 			<nav class="main-nav">
-				<div class="logo">
-					<a href="#" class="logo__link"><img src="img/logo-img.png" alt="" class="logo__image" width="182" height="24"></a>
+				<div class="container">
+					<div class="main-nav__wrapper">
+						<div class="logo">
+							<a href="#" class="logo__link"><img src="img/logo-img.png" alt="" class="logo__image" width="182" height="24"></a>
+						</div>
+						<ul class="main-nav__list">
+							<li class="main-nav__item"><a href="#" class="main-nav__link">Home</a></li>
+							<li class="main-nav__item"><a href="#" class="main-nav__link">Men</a></li>
+							<li class="main-nav__item"><a href="#" class="main-nav__link">Women</a></li>
+							<li class="main-nav__item"><a href="#" class="main-nav__link">Children</a></li>
+							<li class="main-nav__item"><a href="#" class="main-nav__link">Baby</a></li>
+							<li class="main-nav__item"><a href="#" class="main-nav__link">Our Brands</a></li>
+							<li class="main-nav__item"><a href="#" class="main-nav__link">Sales</a></li>
+						</ul>
+					</div>
 				</div>
-				<ul class="main-nav__li st">
-					<li class="main-nav__item"><a href="#" class="main-nav__link">Home</a></li>
-					<li class="main-nav__item"><a href="#" class="main-nav__link">Men</a></li>
-					<li class="main-nav__item"><a href="#" class="main-nav__link">Women</a></li>
-					<li class="main-nav__item"><a href="#" class="main-nav__link">Children</a></li>
-					<li class="main-nav__item"><a hzref="#" class="main-nav__link">Baby</a></li>
-					<li class="main-nav__item"><a href="#" class="main-nav__link">Our Brands</a></li>
-					<li class="main-nav__item"><a href="#" class="main-nav__link">Sales</a></li>
-				</ul>
 			</nav>
-		</div>
 	</header>
-	<main class="container">
-		<div class="promo">
-			<img src="img/promo-img.png" alt="Фотография кроссовок Nike" class="promo__image" width="829" height="732">
-			<div class="promo__info">
-				<span class="promo__min-price">From $80.00</span>
-				<h2 class="promo__product-title">Nike Air Max</h2>
-				<b class="promo__assortment">50 Variants</b>
-				<p class="promo__info">Since this is our favorite sneaker, we’re bringing you
-50 variants to suit everyone’s needs.</p>
-				<a href="" class="promo__link">Browse Variants</a>
+	<div class="promo">
+			<div class="container">
+				<div class="promo__wrapper">
+					<img class="promo__image" src="img/promo-img.png" alt="Фотография кроссовок Nike"  width="829" height="732">
+					<div class="promo__info">
+						<span class="promo__min-price">From $80.00</span>
+						<h2 class="promo__product-title">Nike Air Max</h2>
+						<b class="promo__assortment">50 Variants</b>
+						<p class="promo__text">Since this is our favorite sneaker, we’re bringing you
+					50 variants to suit everyone’s needs.</p>
+						<a href="" class="promo__button btn">Browse Variants</a>
+				</div>
+			</div>
 			</div>
 		</div>
+	<main class="container">
+		
 		<div class="offer">
-			<article class="offer__item offer__item-1">
-				<img src="img/kyrie-img.jpg" alt="Изображение Nike Kyrie 3" class="offer__image" width="540" height="540">
-				<h2 class="offer__title"><span class="offer__slogan">Discover the new</span> Nike Kyrie 3</h2>
-				<a href="#" class="offer__link">View Collection</a>
-			</article>
-			<article class="offer__item offer__item-2">
-				<img src="img/adidas-boost-img.png" alt="Изображение обуви Adidas-Boost" class="offer__image" width="207" height="277">
-				<h2 class="offer__title"><span class="offer__slogan">Check out the</span>New Arrivals</h2>
-				<a href="#" class="offer__link">Discover</a>
-			</article>
-			<article class="offer__item offer__item-3">
-				<img src="img/dominik-martin-img.jpg" alt="Изображение обуви Nike" class="offer__image" width="255" height="255">
-				<h2 class="offer__title"><span class="offer__slogan">Best for</span>Athletes</h2>
-			</article>
-			<article class="offer__item offer__item-4">
-				<img src="img/2-boots-img.png" alt="Изображение обуви Nike" class="offer__image" width="224" height="123">
-				<h2 class="offer__title"><span class="offer__slogan">Feel</span>Premium</h2>
-			</article>
+			<div class="offer__wrapper">
+				<article class="offer__item offer__item-1">
+					<img class="offer__image-1" src="img/kyrie-img.jpg" alt="Изображение кроссовок Nike Kyrie 3" width="540" height="540">
+					<h2 class="offer__title offer__title-1"><span class="offer__slogan">Discover the new</span>Nike Kyrie 3</h2>
+					<a href="#" class="offer__button btn">View Collection</a>
+				</article>
+				<div class="offer__column">
+					<article class="offer__item offer__item-2">
+						 <img class="offer__image-2" src="img/adidas-boost-img.png" alt="Изображение обуви Adidas-Boost"  width="207" height="277">
+						<h2 class="offer__title offer__title-2"><span class="offer__slogan">Check out the</span>New Arrivals</h2>
+						<a href="#" class="offer__button btn">Discover</a>
+					</article>
+					<article class="offer__item offer__item-3">
+						<img class="offer__image-3" src="img/dominik-martin-img.jpg" alt="Изображение обуви Nike"  width="255" height="255">
+						<h2 class="offer__title offer__title-3"><span class="offer__slogan">Best for</span>Athletes</h2>
+					</article>
+					<article class="offer__item offer__item-4">
+						<img class="offer__image-4" src="img/2-boots-img.png" alt="Изображение обуви Nike" class="offer__image" width="224" height="123">
+						<h2 class="offer__title offer__title-4"><span class="offer__slogan offer__slogan-4">Feel</span>Premium</h2>
+					</article>
+				</div>
+			</div>
 		</div>
 		<section class="catalog">
-			<div class="catalog__controls">
-				<a href="#" class="catalog__controls-category">New</a>
-				<a href="#" class="catalog__controls-category">Popular</a>
-				<a href="#" class="catalog__controls-category">Top Picks</a>
+			<div class="container">
+				<ul class="catalog__controls">
+					<li class="catalog__controls-item">
+						<a href="#" class="catalog__controls-category catalog__controls-category--active">New</a>
+					</li>
+					<li class="catalog__controls-item">
+						<a href="#" class="catalog__controls-category">Popular</a>
+					</li>
+					<li class="catalog__controls-item">
+						<a href="#" class="catalog__controls-category">Top Picks</a>
+					</li>
+				</ul>
+
+				<div class="catalog__wrapper">
+					<article class="catalog__product product">
+						<span class="product__price">$45.00</span>
+						<span class="product__discount">-25%</span>
+						<span class="product__old-price">$60.00</span>
+						<img class="product__image" src="img/product-img1.jpg" alt="Converse Breakpoint
+					Suede Blue"  width="200" height="200">
+						<span class="product__sex">Men</span>
+						<h1 class="product__name">Converse Breakpoint
+					Suede Blue </h1>
+						<span class="product__article">#16378271</span>
+					</article>
+					<article class="catalog__product product">
+						<span class="product__price">$55.00</span>
+						<img src="img/product-img2.jpg" alt="Converse CT All Star II" class="product__image" width="200" height="200">
+						<span class="product__sex">Men/Women</span>
+						<h1 class="product__name">Converse CT All Star II</h1>
+						<span class="product__article">#16378271</span>
+					</article>
+					<article class="catalog__product product">
+						<span class="product__price">$60.00</span>
+						<span class="product__discount">-25%</span>
+						<span class="product__old-price">$80.00</span>
+						<img src="img/product-img3.jpg" alt="Adidas Pure Boost Chill" class="product__image" width="200" height="200">
+						<span class="product__sex">Women</span>
+						<h1 class="product__name">Adidas Pure Boost Chill</h1>
+						<span class="product__article">#16378271</span>
+					</article>
+					<article class="catalog__product product">
+						<span class="product__price">$50.00</span>
+						<img src="img/product-img4.jpg" alt="Puma Duplex W Casual" class="product__image" width="200" height="200">
+						<span class="product__sex">Men</span>
+						<h1 class="product__name">Puma Duplex W Casual</h1>
+						<span class="product__article">#16378271</span>
+					</article>
+					<article class="catalog__product product">
+						<span class="product__price">$50.00</span>
+						<img src="img/product-img5.jpg" alt="Adidas Alphabounce 1M" class="product__image" width="200" height="200">
+						<span class="product__sex">Men</span>
+						<h1 class="product__name">Adidas Alphabounce 1M</h1>
+						<span class="product__article">#16378271</span>
+					</article>
+					<article class="catalog__product product">
+						<span class="product__price">$50.00</span>
+						<span class="product__discount">-50%</span>
+						<span class="product__old-price">$100.00</span>
+						<img src="img/product-img6.jpg" alt="Asics GEL-Epirus" class="product__image" width="200" height="200">
+						<span class="product__sex">Men</span>
+						<h1 class="product__name">Asics GEL-Epirus</h1>
+						<span class="product__article">#16378271</span>
+					</article>
+					<article class="catalog__product product">
+						<span class="product__price">$40.00</span>
+						<img src="img/product-img7.jpg" alt="Adidas Originals
+					Courtvantage Mesh" class="product__image" width="200" height="200">
+						<span class="product__sex">Men</span>
+						<h1 class="product__name">Adidas Originals
+					Courtvantage Mesh</h1>
+						<span class="product__article">#16378271</span>
+					</article>
+					<article class="catalog__product product">
+						<span class="product__price">$80.00</span>
+						<img src="img/product-img8.jpg" alt="Adidas Originals
+					Climacool 1" class="product__image" width="200" height="200">
+						<span class="product__sex">Men</span>
+						<h1 class="product__name">Adidas Originals
+					Climacool 1</h1>
+						<span class="product__article">#16378271</span>
+					</article>
+				</div>
 			</div>
-			<article class="catalog__product product">
-				<span class="product__price">$45.00</span>
-				<span class="product__discount">-25%</span>
-				<span class="product__old-price">$60.00</span>
-				<img src="img/product-img1.jpg" alt="Converse Breakpoint
-Suede Blue" class="product__image" width="200" height="200">
-				<span class="product__sex">Men</span>
-				<h1 class="product__name">Converse Breakpoint
-Suede Blue </h1>
-				<span class="product__article">#16378271</span>
-			</article>
-			<article class="catalog__product product">
-				<span class="product__price">$55.00</span>
-				<img src="img/product-img2.jpg" alt="Converse CT All Star II" class="product__image" width="200" height="200">
-				<span class="product__sex">Men/Women</span>
-				<h1 class="product__name">Converse CT All Star II</h1>
-				<span class="product__article">#16378271</span>
-			</article>
-			<article class="catalog__product product">
-				<span class="product__price">$60.00</span>
-				<span class="product__discount">-25%</span>
-				<span class="product__old-price">$80.00</span>
-				<img src="img/product-img3.jpg" alt="Adidas Pure Boost Chill" class="product__image" width="200" height="200">
-				<span class="product__sex">Women</span>
-				<h1 class="product__name">Adidas Pure Boost Chill</h1>
-				<span class="product__article">#16378271</span>
-			</article>
-			<article class="catalog__product product">
-				<span class="product__price">$50.00</span>
-				<img src="img/product-img4.jpg" alt="Puma Duplex W Casual" class="product__image" width="200" height="200">
-				<span class="product__sex">Men</span>
-				<h1 class="product__name">Puma Duplex W Casual</h1>
-				<span class="product__article">#16378271</span>
-			</article>
-			<article class="catalog__product product">
-				<span class="product__price">$50.00</span>
-				<img src="img/product-img5.jpg" alt="Adidas Alphabounce 1M" class="product__image" width="200" height="200">
-				<span class="product__sex">Men</span>
-				<h1 class="product__name">Adidas Alphabounce 1M</h1>
-				<span class="product__article">#16378271</span>
-			</article>
-			<article class="catalog__product product">
-				<span class="product__price">$50.00</span>
-				<span class="product__discount">-50%</span>
-				<span class="product__old-price">$100.00</span>
-				<img src="img/product-img6.jpg" alt="Asics GEL-Epirus" class="product__image" width="200" height="200">
-				<span class="product__sex">Men</span>
-				<h1 class="product__name">Asics GEL-Epirus</h1>
-				<span class="product__article">#16378271</span>
-			</article>
-			<article class="catalog__product product">
-				<span class="product__price">$40.00</span>
-				<img src="img/product-img7.jpg" alt="Adidas Originals
-Courtvantage Mesh" class="product__image" width="200" height="200">
-				<span class="product__sex">Men</span>
-				<h1 class="product__name">Adidas Originals
-Courtvantage Mesh</h1>
-				<span class="product__article">#16378271</span>
-			</article>
-			<article class="catalog__product product">
-				<span class="product__price">$80.00</span>
-				<img src="img/product-img8.jpg" alt="Adidas Originals
-Climacool 1" class="product__image" width="200" height="200">
-				<span class="product__sex">Men</span>
-				<h1 class="product__name">Adidas Originals
-Climacool 1</h1>
-				<span class="product__article">#16378271</span>
-			</article>
 		</section>
 		<section class="brands">
 			<h2 class="visually-hidden">Бренды нашего магазина</h2>
@@ -204,7 +233,7 @@ Climacool 1</h1>
 				<h2 class="help__header">Looking For Help?</h2>
 				<p class="help annotation">Have any questions or need help with order? Let us know!</p>
 			</div>
-			<a href="#" class="help_button">Make An Inquiry</a>
+			<a href="#" class="help-button btn">Make An Inquiry</a>
 		</section>
 	</main>
 	<footer class="main-footer">

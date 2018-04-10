@@ -1,3 +1,405 @@
 body{
-	background-color: #656565;
+	font-family: "TruenoLight", Arial, sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.container{
+	width: 1110px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.visually-hidden
+{
+	font-size: 0;
+
+	position: absolute;
+
+	clip: rect(0 0 0 0);
+
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+}
+
+/* Header */
+
+.sub-nav{
+	background-color: #482424;
+	font-size: 13px;
+	color: #fff;
+}
+
+.sub-nav__wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+
+.sub-nav__list{
+	margin: 0;
+	padding: 0;
+	width: 315px;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+
+.sub-nav__link{
+	text-decoration: none;
+	color: inherit;
+	
+}
+
+.cart{
+	display: flex;
+}
+
+.cart__counter{
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.user-block{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style: none;
+}
+
+.user-block__link{
+	text-decoration: none;
+	color: inherit;
+	padding: 10px;
+
+}
+
+
+.main-nav{
+	background-color: #633231;
+	color: #fff;
+}
+
+.main-nav__wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo{
+	z-index: 2;
+}
+
+.main-nav__list{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 600px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-nav__link{
+	text-decoration: none;
+	color: inherit;
+}
+
+.promo{
+
+	background-color: #f0efee;
+}
+
+.promo__wrapper{
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 110px;
+	padding-bottom: 130px;
+	min-height: 380px;
+}
+
+.promo__image{
+	position: absolute;
+	    left: -250px;
+    top: -65px;
+}
+
+.promo__info{
+	width: 540px;
+}
+
+.promo__min-price{
+	font-size: 30px;
+	line-height: 30px;
+	color:#633231;
+}
+
+.promo__product-title{
+	margin: 0;
+	font-family: "TruenoUltraBlack", Arial, sans-serif;
+	font-size: 70px;
+	line-height: 70px;
+	color:#633231;
+}
+
+.promo__assortment{
+	font-family: "TruenoUltraBlack", Arial, sans-serif;
+	font-size: 50px;
+	line-height: 50px;
+	color:#ff7270;
+}
+
+.promo__text{
+	margin: 0;
+	color: #8a8783;
+}
+
+.btn{
+	display: inline-block;
+	vertical-align: top;
+	font-family: "TruenoBold", Arial, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	box-sizing: border-box;
+	height: 48px;
+	padding: 10px 20px;
+}
+
+.promo__button{
+	background-color: #ff7270;
+}
+
+.offer__wrapper{
+	display: flex;
+	margin-bottom: 40px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.offer__item{
+	position: relative;
+	display: flex;
+}
+
+.offer__item-1{
+	
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    min-height: 540px;
+        width: 540px;
+        padding: 30px 0;
+    background-color: #000;
+    background-image: url(../img/kyrie-img.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.offer__item-1::before{
+	content: "";
+	display: block;
+	    width: 30px;
+    height: 55px;
+
+	position: absolute;
+	    top: 220px;
+    left: -15px;
+	background-image: url(../img/nike-kyrie-back.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.offer__image-1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.offer__column{
+	width: 540px;
+	display: flex;
+	align-content: space-between;
+    justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.offer__item-2{
+	    flex-direction: column;
+    justify-content: center;
+    padding-left: 170px;
+	background-color: #ff7270;
+	flex-grow: 1;
+	min-height: 255px;
+}
+
+.offer__image-2{
+	position: absolute;
+	top: -22px;
+	    left: -15px;
+}
+
+.offer__item-3{
+	    justify-content: center;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+	min-height: 255px;
+	width: 255px;
+}
+
+.offer__image-3{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	background-color: #b5c0d3;
+}
+
+.offer__item-4{
+	justify-content: center;
+	align-items: flex-start;
+	box-sizing: border-box;
+	padding-top: 20px;
+	min-height: 255px;
+	width: 255px;
+	background-color: #cecece;
+}
+
+.offer__image-4{
+	position: absolute;
+bottom: 0;
+    left: 15px;
+}
+
+.offer__title{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: "TruenoBold", Arial, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.offer__title-1{
+    margin-bottom: 370px;
+   
+    color: rgb(66, 217, 206);
+}
+
+.offer__title-2{
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.offer__title-3{
+	color: #ff7270;
+}
+
+.offer__title-4{
+	color: #fff;
+}
+
+.offer__slogan{
+	font-family: "TruenoLight", Arial, sans-serif;
+
+	color: #fff;
+}
+
+.offer__slogan-4{
+	color: #6b7072;
+}
+
+.offer__button{
+	background-color: #42d9ce;
+	color: #000;
+	align-self: center;
+}
+
+
+
+.catalog__controls{
+	margin: 0;
+	    margin-bottom: 40px;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+.catalog__controls-item{
+	padding: 0 20px;
+}
+
+.catalog__controls-category{
+	color: #bdb9b4;
+	font-size: 30px;
+	line-height: 30px;
+	text-decoration: none;
+}
+
+.catalog__controls-category--active{
+	color: #633231;
+	 font-family: "TruenoBold", Arial, sans-serif;
+}
+
+.catalog__wrapper{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 40px;
+}
+
+.product{
+	margin-bottom: 20px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 255px;
+	outline: 2px solid lightblue;
+	color: #8a8784;
+}
+
+.product__price{
+	font-size: 24px;
+	color: #ff7270;
+}
+
+.product__discount{
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-family: "TruenoBold", Arial, sans-serif;
+	background-color: #ff7270;
+	color: #fff;
+}
+
+.product__old-price{
+	text-decoration: line-through;
+}
+
+.promo__image{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.product__sex{
+	font-family: "TruenoBold", Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+.product__name{
+	margin: 0;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.product__article{
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.brands{
+	display: flex;
+	justify-content: space-between;
 }
